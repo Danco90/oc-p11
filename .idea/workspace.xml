@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4bac87f-3b87-4f3a-8eef-a90473642daf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter18/concurrency/AvoidingStatefulOperationsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter18/concurrency/parallelstreams/ParallelDecompositionDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ocp11/com/pino/project/ocp11/java11/ocp/chapter18/concurrency/ReentrantLockImplDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ocp11/com/pino/project/ocp11/java11/ocp/chapter18/concurrency/ReentrantLockImplDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +104,7 @@
       <recent name="com.pino.project.ocp11.java11.ocp.chapter18.concurrency" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AvoidingStatefulOperationsDemo">
+  <component name="RunManager" selected="Application.ParallelDecompositionDemo">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -144,6 +143,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pino.project.ocp11.java11.ocp.chapter18.concurrency.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParallelDecompositionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pino.project.ocp11.java11.ocp.chapter18.concurrency.parallelstreams.ParallelDecompositionDemo" />
+      <module name="ocp11" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pino.project.ocp11.java11.ocp.chapter18.concurrency.parallelstreams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,6 +217,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParallelDecompositionDemo" />
         <item itemvalue="Application.AvoidingStatefulOperationsDemo" />
         <item itemvalue="Application.LionPenManager" />
         <item itemvalue="Application.ReentrantLockImplDemo" />
@@ -257,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631431193281</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added cases for avoiding lambda stateful operations in streams">
+      <created>1631777000458</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1631777000458</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,6 +300,7 @@
     <MESSAGE value="created java 11 project" />
     <MESSAGE value="Added cases for Lock implementation along with synch block" />
     <MESSAGE value="Added cases for CyclicBarriers with new construct var" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added cases for CyclicBarriers with new construct var" />
+    <MESSAGE value="Added cases for avoiding lambda stateful operations in streams" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added cases for avoiding lambda stateful operations in streams" />
   </component>
 </project>
