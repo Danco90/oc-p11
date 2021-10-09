@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4bac87f-3b87-4f3a-8eef-a90473642daf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter18/concurrency/cyclycbarrier/LionPenManagerDebugLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter18/concurrency/forkjoin/WeighAnimalAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter14/genericsandcollections/ListImplementationsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter14/genericsandcollections/MapImplementationsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter14/genericsandcollections/QueueImplementationsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter14/genericsandcollections/SetImplementationsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter18/concurrency/forkjoin/WeighAnimalTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter18/concurrency/LionPenManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter18/concurrency/cyclycbarrier/LionPenManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -303,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631976713237</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added use cases for ForkJoin with RecursiveAction">
+      <created>1632156953195</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1632156953195</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -327,6 +336,7 @@
     <MESSAGE value="Added cases for CyclicBarriers with new construct var" />
     <MESSAGE value="Added cases for avoiding lambda stateful operations in streams" />
     <MESSAGE value="Added use cases for parallel decomposition in streams" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added use cases for parallel decomposition in streams" />
+    <MESSAGE value="Added use cases for ForkJoin with RecursiveAction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added use cases for ForkJoin with RecursiveAction" />
   </component>
 </project>
