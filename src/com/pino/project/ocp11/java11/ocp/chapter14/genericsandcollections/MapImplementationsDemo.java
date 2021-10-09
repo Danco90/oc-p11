@@ -57,6 +57,30 @@ public class MapImplementationsDemo {
         //c) Java10 - Map.copyOf(map) provides a convenient way to create unmodifiable maps.
         map = Map.copyOf(map);
 
+        // Going through all the data in a map
+        System.out.println("\nGoing through all the data in a map ::");
+        Map<Integer, Character> mp = new HashMap<>();
+        mp.put(1,'a');
+        mp.put(2,'b');
+        mp.put(3,'c');
+        //Way 1
+        mp.forEach((k, v) -> System.out.println(v));
+        //map.values().forEach(System.out::println);
+
+        System.out.println();
+        //Way 2 - get the key/value pairs in a Set
+        mp.entrySet().forEach(e ->
+                System.out.println(e.getKey() +" "+ e.getValue()));
+
+        //default V getOrDefault(Object key, V defaultValue) behaves the same way as get() when the key is present
+        System.out.println("\ndefault V getOrDefault(Object key, V defaultValue) ::");
+        Map<Character, String> mpp = new HashMap<>();
+        mpp.put('x',"sport");
+        System.out.println("X marks the "+ mpp.get('x'));
+        System.out.println("X marks the "+ mpp.getOrDefault('x', ""));
+        System.out.println("Y marks the "+ mpp.get('y'));
+        System.out.println("Y marks the "+ mpp.getOrDefault('y', ""));
+
         //2. LinkedHashMap: it is like HashMap, but keeps the order of insertion
         //++benefit: order of insertion is maintained
         //--tradeoff: slower than HashMap

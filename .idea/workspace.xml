@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4bac87f-3b87-4f3a-8eef-a90473642daf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter14/genericsandcollections/ListImplementationsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter14/genericsandcollections/MapImplementationsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter14/genericsandcollections/QueueImplementationsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter14/genericsandcollections/SetImplementationsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter18/concurrency/forkjoin/WeighAnimalTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter14/genericsandcollections/MapImplementationsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter14/genericsandcollections/MapImplementationsDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +105,7 @@
       <recent name="com.pino.project.ocp11.java11.ocp.chapter18.concurrency" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WeighAnimalAction">
+  <component name="RunManager" selected="Application.MapImplementationsDemo">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -126,20 +122,6 @@
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
-    </configuration>
-    <configuration name="AvoidingStatefulOperationsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pino.project.ocp11.java11.ocp.chapter18.concurrency.AvoidingStatefulOperationsDemo" />
-      <module name="ocp11" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pino.project.ocp11.java11.ocp.chapter18.concurrency.cyclycbarrier.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="LionPenManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pino.project.ocp11.java11.ocp.chapter18.concurrency.cyclycbarrier.LionPenManager" />
@@ -162,6 +144,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pino.project.ocp11.java11.ocp.chapter18.concurrency.cyclycbarrier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapImplementationsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pino.project.ocp11.java11.ocp.chapter14.genericsandcollections.MapImplementationsDemo" />
+      <module name="ocp11" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pino.project.ocp11.java11.ocp.chapter14.genericsandcollections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -236,11 +232,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapImplementationsDemo" />
         <item itemvalue="Application.WeighAnimalAction" />
         <item itemvalue="Application.LionPenManagerDebugLog" />
         <item itemvalue="Application.LionPenManager" />
         <item itemvalue="Application.ParallelDecompositionDemo" />
-        <item itemvalue="Application.AvoidingStatefulOperationsDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632156953195</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added collections review, such as java 9 and 10,such as static factory methods of List, Set and Map">
+      <created>1633792816599</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1633792816599</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -337,6 +340,7 @@
     <MESSAGE value="Added cases for avoiding lambda stateful operations in streams" />
     <MESSAGE value="Added use cases for parallel decomposition in streams" />
     <MESSAGE value="Added use cases for ForkJoin with RecursiveAction" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added use cases for ForkJoin with RecursiveAction" />
+    <MESSAGE value="Added collections review, such as java 9 and 10,such as static factory methods of List, Set and Map" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added collections review, such as java 9 and 10,such as static factory methods of List, Set and Map" />
   </component>
 </project>
