@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4bac87f-3b87-4f3a-8eef-a90473642daf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter18/concurrency/liveness/DeadlockExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter18/concurrency/liveness/FoxDeadlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter18/concurrency/liveness/FoxDeadlockWithReentrantLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter18/concurrency/liveness/LivelockExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +108,7 @@
       <recent name="com.pino.project.ocp11.java11.ocp.chapter18.concurrency" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FoxDeadlockWithReentrantLock">
+  <component name="RunManager" selected="Application.LivelockExample">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -171,13 +168,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReentrantLockImplDemoB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pino.project.ocp11.java11.ocp.chapter18.concurrency.ReentrantLockImplDemoB" />
+    <configuration name="LivelockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pino.project.ocp11.java11.ocp.chapter18.concurrency.liveness.LivelockExample" />
       <module name="ocp11" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pino.project.ocp11.java11.ocp.chapter18.concurrency.*" />
+          <option name="PATTERN" value="com.pino.project.ocp11.java11.ocp.chapter18.concurrency.liveness.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,8 +182,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReentrantLockImplDemoC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pino.project.ocp11.java11.ocp.chapter18.concurrency.ReentrantLockImplDemoC" />
+    <configuration name="ReentrantLockImplDemoB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pino.project.ocp11.java11.ocp.chapter18.concurrency.ReentrantLockImplDemoB" />
       <module name="ocp11" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -238,11 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LivelockExample" />
         <item itemvalue="Application.FoxDeadlockWithReentrantLock" />
         <item itemvalue="Application.DeadlockExample" />
         <item itemvalue="Application.FoxDeadlock" />
         <item itemvalue="Application.ReentrantLockImplDemoB" />
-        <item itemvalue="Application.ReentrantLockImplDemoC" />
       </list>
     </recent_temporary>
   </component>
@@ -328,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633796082864</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added Deadlock example">
+      <created>1647349120453</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1647349120453</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -355,6 +359,7 @@
     <MESSAGE value="Added use cases for ForkJoin with RecursiveAction" />
     <MESSAGE value="Added collections review, such as java 9 and 10,such as static factory methods of List, Set and Map" />
     <MESSAGE value="Added Map examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Map examples" />
+    <MESSAGE value="Added Deadlock example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Deadlock example" />
   </component>
 </project>
