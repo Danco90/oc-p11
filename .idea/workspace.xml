@@ -5,48 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4bac87f-3b87-4f3a-8eef-a90473642daf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/abstractfactory/AbstractDesignManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/abstractfactory/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/abstractfactory/AbstractProductA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/abstractfactory/AbstractProductB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/abstractfactory/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/abstractfactory/CarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/abstractfactory/CarType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/abstractfactory/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/abstractfactory/ConcreteFactoryX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/abstractfactory/ConcreteFactoryY.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/abstractfactory/DefaultCarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/abstractfactory/INDIACarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/abstractfactory/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/abstractfactory/LuxuryCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/abstractfactory/MicroCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/abstractfactory/MiniCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/abstractfactory/ProductAX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/abstractfactory/ProductAY.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/abstractfactory/ProductBX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/abstractfactory/ProductBY.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/abstractfactory/USACarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/builder/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/builder/AnimalBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/builder/AnimalPro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/builder/AnimalProUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/builder/AnimalUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/factory/DesignManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/factory/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/factory/LuxuryVehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/factory/MicroVehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/factory/MiniVehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/factory/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/factorymethod/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/factorymethod/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/factorymethod/FoodFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/factorymethod/FoodManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/factorymethod/Hay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/factorymethod/Pellets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter15/functionalprogramming/StringOverview.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/abstractfactory/AbstractDesignManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/abstractfactory/AbstractDesignManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -397,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647377316618</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added a Creational Design Patterns Examples">
+      <created>1647455686619</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1647455686620</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -427,6 +394,7 @@
     <MESSAGE value="Added Deadlock example" />
     <MESSAGE value="Added Livelock example" />
     <MESSAGE value="Added a few Stream Exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a few Stream Exercises" />
+    <MESSAGE value="Added a Creational Design Patterns Examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a Creational Design Patterns Examples" />
   </component>
 </project>
