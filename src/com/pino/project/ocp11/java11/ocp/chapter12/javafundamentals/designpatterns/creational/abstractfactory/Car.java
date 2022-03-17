@@ -34,4 +34,9 @@ abstract class Car
     {
         return "CarModel - "+model + " located in "+location;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
 }

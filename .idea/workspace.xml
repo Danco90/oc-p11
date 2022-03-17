@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4bac87f-3b87-4f3a-8eef-a90473642daf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter_api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/abstractfactory/CarFactoryUnitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/abstractfactory/AbstractDesignManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/abstractfactory/AbstractDesignManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocp11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ocp11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/abstractfactory/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/abstractfactory/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/abstractfactory/LuxuryCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/abstractfactory/LuxuryCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/abstractfactory/MicroCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/abstractfactory/MicroCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/abstractfactory/MiniCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter12/javafundamentals/designpatterns/creational/abstractfactory/MiniCar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,11 +102,15 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter18/concurrency/liveness" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
@@ -111,6 +121,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter18/concurrency/liveness" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.pino.project.ocp11.java11.ocp.chapter12.javafundamentals.designpatterns.creational.factory" />
       <recent name="com.pino.project.ocp11.java11.ocp.chapter12.javafundamentals.designpatterns.creational.abstractfactory" />
@@ -119,7 +132,7 @@
       <recent name="com.pino.project.ocp11.java11.ocp.chapter15.functionalprogramming" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AbstractDesignManager">
+  <component name="RunManager" selected="JUnit.CarFactoryUnitTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -137,7 +150,7 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration name="AbstractDesignManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="AbstractDesignManager (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pino.project.ocp11.java11.ocp.chapter12.javafundamentals.designpatterns.creational.abstractfactory.AbstractDesignManager" />
       <module name="ocp11" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -151,27 +164,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnimalProUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pino.project.ocp11.java11.ocp.chapter12.javafundamentals.designpatterns.creational.builder.AnimalProUser" />
+    <configuration name="AbstractDesignManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ocp11.ocp.chapter12.javafundamentals.designpatterns.creational.abstractfactory.AbstractDesignManager" />
       <module name="ocp11" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pino.project.ocp11.java11.ocp.chapter12.javafundamentals.designpatterns.creational.builder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DesignManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pino.project.ocp11.java11.ocp.chapter12.javafundamentals.designpatterns.creational.factory.DesignManager" />
-      <module name="ocp11" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pino.project.ocp11.java11.ocp.chapter12.javafundamentals.designpatterns.creational.factory.*" />
+          <option name="PATTERN" value="ocp11.ocp.chapter12.javafundamentals.designpatterns.creational.abstractfactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,26 +179,12 @@
       </method>
     </configuration>
     <configuration name="FoodManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pino.project.ocp11.java11.ocp.chapter12.javafundamentals.designpatterns.creational.factorymethod.FoodManager" />
+      <option name="MAIN_CLASS_NAME" value="ocp11.ocp.chapter12.javafundamentals.designpatterns.creational.factorymethod.FoodManager" />
       <module name="ocp11" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pino.project.ocp11.java11.ocp.chapter12.javafundamentals.designpatterns.creational.abstractfactory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamPracticalExercise2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pino.project.ocp11.java11.ocp.chapter15.functionalprogramming.StreamPracticalExercise2" />
-      <module name="ocp11" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pino.project.ocp11.java11.ocp.chapter15.functionalprogramming.*" />
+          <option name="PATTERN" value="ocp11.ocp.chapter12.javafundamentals.designpatterns.creational.abstractfactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,6 +194,45 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarFactoryUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ocp11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pino.project.ocp11.java11.ocp.chapter12.javafundamentals.designpatterns.creational.abstractfactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pino.project.ocp11.java11.ocp.chapter12.javafundamentals.designpatterns.creational.abstractfactory" />
+      <option name="MAIN_CLASS_NAME" value="com.pino.project.ocp11.java11.ocp.chapter12.javafundamentals.designpatterns.creational.abstractfactory.CarFactoryUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarFactoryUnitTest.givenCarFactory_whenBuildCarForTypeMicro_thenMicroCarIsReturned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ocp11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pino.project.ocp11.java11.ocp.chapter12.javafundamentals.designpatterns.creational.abstractfactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pino.project.ocp11.java11.ocp.chapter12.javafundamentals.designpatterns.creational.abstractfactory" />
+      <option name="MAIN_CLASS_NAME" value="com.pino.project.ocp11.java11.ocp.chapter12.javafundamentals.designpatterns.creational.abstractfactory.CarFactoryUnitTest" />
+      <option name="METHOD_NAME" value="givenCarFactory_whenBuildCarForTypeMicro_thenMicroCarIsReturned" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -246,11 +270,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CarFactoryUnitTest" />
+        <item itemvalue="JUnit.CarFactoryUnitTest.givenCarFactory_whenBuildCarForTypeMicro_thenMicroCarIsReturned" />
+        <item itemvalue="Application.AbstractDesignManager (1)" />
         <item itemvalue="Application.AbstractDesignManager" />
         <item itemvalue="Application.FoodManager" />
-        <item itemvalue="Application.DesignManager" />
-        <item itemvalue="Application.AnimalProUser" />
-        <item itemvalue="Application.StreamPracticalExercise2" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647455686620</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added enum methods to abstract factory examples">
+      <created>1647456012089</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1647456012089</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -395,6 +426,7 @@
     <MESSAGE value="Added Livelock example" />
     <MESSAGE value="Added a few Stream Exercises" />
     <MESSAGE value="Added a Creational Design Patterns Examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a Creational Design Patterns Examples" />
+    <MESSAGE value="Added enum methods to abstract factory examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added enum methods to abstract factory examples" />
   </component>
 </project>
