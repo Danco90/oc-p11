@@ -1,4 +1,4 @@
-package com.pino.project.ocp11.java11.ocp.chapter18.concurrency;
+package com.pino.project.ocp11.java11.ocp.chapter18.concurrency.cyclycbarrier;
 
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
@@ -27,12 +27,12 @@ public class LionPenManager {
     public static void main(String[] args) throws InterruptedException {
         ExecutorService service = null;
         try {
-            service = Executors.newFixedThreadPool(4)  ;
+            service = Executors.newFixedThreadPool(4)  ;// num Threads available in the pool
             var manager = new LionPenManager();
-            var c1 = new CyclicBarrier(4);
+            var c1 = new CyclicBarrier(4); //CyclicBarrier limit value  <= num threads (available threads in a pool)
             var c2 = new CyclicBarrier(4, () -> System.out.println("*** Pen Cleaned!"));
-            for (int i=0; i < 4; i++)
-                service.submit(() ->
+            for (int i=0; i < 4; i++)//Make sure you set num of available threads AT LEAST as large as your CB limit value
+                service.submit(() -> //One task for each thread available in the pool
                        manager.performTaskWithCyclicBarriers(c1, c2));
         } finally {
               if (service !=  null)
