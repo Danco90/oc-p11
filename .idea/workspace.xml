@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4bac87f-3b87-4f3a-8eef-a90473642daf" name="Changes" comment="Added junit5 test to abstract factory pattern example with jupiter">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter21/jdbc/ResultSetDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter21/jdbc/SetupDerbyDatabase.java" afterDir="false" />
+    <list default="true" id="d4bac87f-3b87-4f3a-8eef-a90473642daf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter14/genericsandcollections/methodreferences/MethodReferencesDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ocp11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ocp11.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +105,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -130,7 +127,7 @@
       <recent name="com.pino.project.ocp11.java11.ocp.chapter15.functionalprogramming" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SetupDerbyDatabase">
+  <component name="RunManager" selected="Application.MethodReferencesDemo">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -176,13 +173,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FoodManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ocp11.ocp.chapter12.javafundamentals.designpatterns.creational.factorymethod.FoodManager" />
+    <configuration name="MethodReferencesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pino.project.ocp11.java11.ocp.chapter14.genericsandcollections.methodreferences.MethodReferencesDemo" />
       <module name="ocp11" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ocp11.ocp.chapter12.javafundamentals.designpatterns.creational.abstractfactory.*" />
+          <option name="PATTERN" value="com.pino.project.ocp11.java11.ocp.chapter14.genericsandcollections.methodreferences.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -278,17 +275,17 @@
       <item itemvalue="Application.SetupDerbyDatabase" />
       <item itemvalue="Application.AbstractDesignManager" />
       <item itemvalue="Application.AbstractDesignManager (1)" />
-      <item itemvalue="Application.FoodManager" />
       <item itemvalue="JUnit.CarFactoryUnitTest" />
       <item itemvalue="JUnit.CarFactoryUnitTest.givenCarFactory_whenBuildCarForTypeMicro_thenMicroCarIsReturned" />
+      <item itemvalue="Application.MethodReferencesDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MethodReferencesDemo" />
         <item itemvalue="JUnit.CarFactoryUnitTest" />
         <item itemvalue="JUnit.CarFactoryUnitTest.givenCarFactory_whenBuildCarForTypeMicro_thenMicroCarIsReturned" />
         <item itemvalue="Application.AbstractDesignManager (1)" />
         <item itemvalue="Application.AbstractDesignManager" />
-        <item itemvalue="Application.FoodManager" />
       </list>
     </recent_temporary>
   </component>
@@ -416,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647542822109</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added junit5 test to abstract factory pattern example with jupiter&#10;+ jdbc">
+      <created>1652778677455</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1652778677455</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -449,7 +453,8 @@
     <MESSAGE value="Added a Creational Design Patterns Examples" />
     <MESSAGE value="Added enum methods to abstract factory examples" />
     <MESSAGE value="Added junit5 test to abstract factory pattern example with jupiter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added junit5 test to abstract factory pattern example with jupiter" />
+    <MESSAGE value="Added junit5 test to abstract factory pattern example with jupiter&#10;+ jdbc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added junit5 test to abstract factory pattern example with jupiter&#10;+ jdbc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
