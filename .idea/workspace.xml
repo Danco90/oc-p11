@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4bac87f-3b87-4f3a-8eef-a90473642daf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter14/genericsandcollections/methodreferences/MethodReferencesDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter14/genericsandcollections/methodreferences/MethodReferencesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter14/genericsandcollections/methodreferences/MethodReferencesDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -420,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652778677455</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added Method reference examples for demonstrating that NOT ALWAYS a lambda can be converted to a method reference. But the contrary">
+      <created>1655550366786</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1655550366786</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -454,7 +461,8 @@
     <MESSAGE value="Added enum methods to abstract factory examples" />
     <MESSAGE value="Added junit5 test to abstract factory pattern example with jupiter" />
     <MESSAGE value="Added junit5 test to abstract factory pattern example with jupiter&#10;+ jdbc" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added junit5 test to abstract factory pattern example with jupiter&#10;+ jdbc" />
+    <MESSAGE value="Added Method reference examples for demonstrating that NOT ALWAYS a lambda can be converted to a method reference. But the contrary" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Method reference examples for demonstrating that NOT ALWAYS a lambda can be converted to a method reference. But the contrary" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
