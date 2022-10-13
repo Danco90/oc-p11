@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4bac87f-3b87-4f3a-8eef-a90473642daf" name="Changes" comment="">
+    <list default="true" id="d4bac87f-3b87-4f3a-8eef-a90473642daf" name="Changes" comment="Removed emtpy lines for testing java 19 config">
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit_jupiter_api.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter_api.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter14/genericsandcollections/methodreferences/MethodReferencesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter14/genericsandcollections/methodreferences/MethodReferencesDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocp11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ocp11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter21/jdbc/ResultSetDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter21/jdbc/ResultSetDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,36 +81,22 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1xzTd3dNrun07KmP8t6JYIF1QPj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="GoToClass.includeLibraries" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.pino.project.ocp11.java11.ocp.chapter12.javafundamentals.designpatterns.creational.abstractfactory" />
@@ -275,9 +265,9 @@
       <item itemvalue="Application.SetupDerbyDatabase" />
       <item itemvalue="Application.AbstractDesignManager" />
       <item itemvalue="Application.AbstractDesignManager (1)" />
+      <item itemvalue="Application.MethodReferencesDemo" />
       <item itemvalue="JUnit.CarFactoryUnitTest" />
       <item itemvalue="JUnit.CarFactoryUnitTest.givenCarFactory_whenBuildCarForTypeMicro_thenMicroCarIsReturned" />
-      <item itemvalue="Application.MethodReferencesDemo" />
     </list>
     <recent_temporary>
       <list>
@@ -440,7 +430,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
@@ -449,7 +438,6 @@
     <MESSAGE value="created java 11 project" />
     <MESSAGE value="Added cases for Lock implementation along with synch block" />
     <MESSAGE value="Added cases for CyclicBarriers with new construct var" />
-    <MESSAGE value="Added cases for avoiding lambda stateful operations in streams" />
     <MESSAGE value="Added use cases for parallel decomposition in streams" />
     <MESSAGE value="Added use cases for ForkJoin with RecursiveAction" />
     <MESSAGE value="Added collections review, such as java 9 and 10,such as static factory methods of List, Set and Map" />
@@ -462,7 +450,9 @@
     <MESSAGE value="Added junit5 test to abstract factory pattern example with jupiter" />
     <MESSAGE value="Added junit5 test to abstract factory pattern example with jupiter&#10;+ jdbc" />
     <MESSAGE value="Added Method reference examples for demonstrating that NOT ALWAYS a lambda can be converted to a method reference. But the contrary" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Method reference examples for demonstrating that NOT ALWAYS a lambda can be converted to a method reference. But the contrary" />
+    <MESSAGE value="Added cases for avoiding lambda stateful operations in streams" />
+    <MESSAGE value="Removed emtpy lines for testing java 19 config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed emtpy lines for testing java 19 config" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
