@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4bac87f-3b87-4f3a-8eef-a90473642daf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter18/concurrency/parallelstreams/ParallelDecompositionDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter14/genericsandcollections/methodreferences/MethodReferencesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter14/genericsandcollections/methodreferences/MethodReferencesDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +56,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -83,28 +84,50 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.pino.project.ocp11.java11.ocp.chapter12.javafundamentals.designpatterns.creational.abstractfactory" />
       <recent name="com.pino.project.ocp11.java11.ocp.chapter18.concurrency" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter18/concurrency/liveness" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.pino.project.ocp11.java11.ocp.chapter18.concurrency" />
+      <recent name="com.pino.project.ocp11.java11.ocp.chapter12.javafundamentals.designpatterns.creational.factory" />
+      <recent name="com.pino.project.ocp11.java11.ocp.chapter12.javafundamentals.designpatterns.creational.abstractfactory" />
+      <recent name="com.pino.project.ocp11.java11.ocp.chapter12.javafundamentals.designpatterns.creational.factorymethod" />
+      <recent name="com.pino.project.ocp11.java11.ocp.chapter12.javafundamentals.designpatterns.creational.builder" />
+      <recent name="com.pino.project.ocp11.java11.ocp.chapter15.functionalprogramming" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ParallelDecompositionDemo">
+  <component name="RunManager" selected="Application.MethodReferencesDemo">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -122,13 +145,13 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration name="AvoidingStatefulOperationsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pino.project.ocp11.java11.ocp.chapter18.concurrency.AvoidingStatefulOperationsDemo" />
+    <configuration name="AbstractDesignManager (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pino.project.ocp11.java11.ocp.chapter12.javafundamentals.designpatterns.creational.abstractfactory.AbstractDesignManager" />
       <module name="ocp11" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pino.project.ocp11.java11.ocp.chapter18.concurrency.*" />
+          <option name="PATTERN" value="com.pino.project.ocp11.java11.ocp.chapter12.javafundamentals.designpatterns.creational.abstractfactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,13 +159,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LionPenManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pino.project.ocp11.java11.ocp.chapter18.concurrency.LionPenManager" />
+    <configuration name="AbstractDesignManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ocp11.ocp.chapter12.javafundamentals.designpatterns.creational.abstractfactory.AbstractDesignManager" />
       <module name="ocp11" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pino.project.ocp11.java11.ocp.chapter18.concurrency.*" />
+          <option name="PATTERN" value="ocp11.ocp.chapter12.javafundamentals.designpatterns.creational.abstractfactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,13 +173,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParallelDecompositionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pino.project.ocp11.java11.ocp.chapter18.concurrency.parallelstreams.ParallelDecompositionDemo" />
+    <configuration name="MethodReferencesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pino.project.ocp11.java11.ocp.chapter14.genericsandcollections.methodreferences.MethodReferencesDemo" />
       <module name="ocp11" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pino.project.ocp11.java11.ocp.chapter18.concurrency.parallelstreams.*" />
+          <option name="PATTERN" value="com.pino.project.ocp11.java11.ocp.chapter14.genericsandcollections.methodreferences.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,22 +187,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReentrantLockImplDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pino.project.ocp11.java11.ocp.chapter18.concurrency.ReentrantLockImplDemo" />
+    <configuration name="SetupDerbyDatabase" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.pino.project.ocp11.java11.ocp.chapter21.jdbc.SetupDerbyDatabase" />
       <module name="ocp11" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pino.project.ocp11.java11.ocp.chapter18.concurrency.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PROGRAM_PARAMETERS" value="java -cp $USER_HOME$/Downloads/db-derby-10.15.2.0-bin/lib/derby.jar SetupDerbyDatabase.java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarFactoryUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ocp11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pino.project.ocp11.java11.ocp.chapter12.javafundamentals.designpatterns.creational.abstractfactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pino.project.ocp11.java11.ocp.chapter12.javafundamentals.designpatterns.creational.abstractfactory" />
+      <option name="MAIN_CLASS_NAME" value="com.pino.project.ocp11.java11.ocp.chapter12.javafundamentals.designpatterns.creational.abstractfactory.CarFactoryUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarFactoryUnitTest.givenCarFactory_whenBuildCarForTypeMicro_thenMicroCarIsReturned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ocp11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pino.project.ocp11.java11.ocp.chapter12.javafundamentals.designpatterns.creational.abstractfactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pino.project.ocp11.java11.ocp.chapter12.javafundamentals.designpatterns.creational.abstractfactory" />
+      <option name="MAIN_CLASS_NAME" value="com.pino.project.ocp11.java11.ocp.chapter12.javafundamentals.designpatterns.creational.abstractfactory.CarFactoryUnitTest" />
+      <option name="METHOD_NAME" value="givenCarFactory_whenBuildCarForTypeMicro_thenMicroCarIsReturned" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -215,12 +271,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.SetupDerbyDatabase" />
+      <item itemvalue="Application.AbstractDesignManager" />
+      <item itemvalue="Application.AbstractDesignManager (1)" />
+      <item itemvalue="JUnit.CarFactoryUnitTest" />
+      <item itemvalue="JUnit.CarFactoryUnitTest.givenCarFactory_whenBuildCarForTypeMicro_thenMicroCarIsReturned" />
+      <item itemvalue="Application.MethodReferencesDemo" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ParallelDecompositionDemo" />
-        <item itemvalue="Application.AvoidingStatefulOperationsDemo" />
-        <item itemvalue="Application.LionPenManager" />
-        <item itemvalue="Application.ReentrantLockImplDemo" />
+        <item itemvalue="Application.MethodReferencesDemo" />
+        <item itemvalue="JUnit.CarFactoryUnitTest" />
+        <item itemvalue="JUnit.CarFactoryUnitTest.givenCarFactory_whenBuildCarForTypeMicro_thenMicroCarIsReturned" />
+        <item itemvalue="Application.AbstractDesignManager (1)" />
+        <item itemvalue="Application.AbstractDesignManager" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +343,91 @@
       <option name="project" value="LOCAL" />
       <updated>1631777000458</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added use cases for parallel decomposition in streams">
+      <created>1631976713237</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1631976713237</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added use cases for ForkJoin with RecursiveAction">
+      <created>1632156953195</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1632156953195</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added collections review, such as java 9 and 10,such as static factory methods of List, Set and Map">
+      <created>1633792816599</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1633792816599</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added Map examples">
+      <created>1633796082864</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1633796082864</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added Deadlock example">
+      <created>1647349120453</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1647349120453</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added Livelock example">
+      <created>1647349232850</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1647349232850</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added a few Stream Exercises">
+      <created>1647377316618</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1647377316618</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added a Creational Design Patterns Examples">
+      <created>1647455686619</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1647455686620</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added enum methods to abstract factory examples">
+      <created>1647456012089</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1647456012089</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added junit5 test to abstract factory pattern example with jupiter">
+      <created>1647542822089</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1647542822109</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added junit5 test to abstract factory pattern example with jupiter&#10;+ jdbc">
+      <created>1652778677455</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1652778677455</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added Method reference examples for demonstrating that NOT ALWAYS a lambda can be converted to a method reference. But the contrary">
+      <created>1655550366786</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1655550366786</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -301,6 +450,34 @@
     <MESSAGE value="Added cases for Lock implementation along with synch block" />
     <MESSAGE value="Added cases for CyclicBarriers with new construct var" />
     <MESSAGE value="Added cases for avoiding lambda stateful operations in streams" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added cases for avoiding lambda stateful operations in streams" />
+    <MESSAGE value="Added use cases for parallel decomposition in streams" />
+    <MESSAGE value="Added use cases for ForkJoin with RecursiveAction" />
+    <MESSAGE value="Added collections review, such as java 9 and 10,such as static factory methods of List, Set and Map" />
+    <MESSAGE value="Added Map examples" />
+    <MESSAGE value="Added Deadlock example" />
+    <MESSAGE value="Added Livelock example" />
+    <MESSAGE value="Added a few Stream Exercises" />
+    <MESSAGE value="Added a Creational Design Patterns Examples" />
+    <MESSAGE value="Added enum methods to abstract factory examples" />
+    <MESSAGE value="Added junit5 test to abstract factory pattern example with jupiter" />
+    <MESSAGE value="Added junit5 test to abstract factory pattern example with jupiter&#10;+ jdbc" />
+    <MESSAGE value="Added Method reference examples for demonstrating that NOT ALWAYS a lambda can be converted to a method reference. But the contrary" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Method reference examples for demonstrating that NOT ALWAYS a lambda can be converted to a method reference. But the contrary" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter21/jdbc/SetupDerbyDatabase.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pino/project/ocp11/java11/ocp/chapter21/jdbc/SetupDerbyDatabase.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
